@@ -1,0 +1,31 @@
+1> Data Loader - How to work with custom data (pdf/html/json format or any)
+2> Intro to RAG
+3> splitter
+4> embedding 
+5> vector store 
+6> retrievers
+7> top-k inside retrievers 
+
+Next:
+Rag demo  with langchain expression language 
+
+
+
+Points ::
+
+as we seen in coded part,if we loaded 30k information about givn topic from wikipedia and try to pass to LLM to generate answers from it,
+then LLM may not have ability to take that input and ouput accordingly,so it is not possible to pass that tokens at once in LLM..
+- another point is it will cost very high , we can see from token input/ouput price calculator
+
+so here comes the role of RAG..
+we can load large datasets  and ask the LLM questions about it 
+
+if loaded data is too large? we will use RAG. 
+
+Overview:
+split doc into chunks -> transform text chunks in numeric chunks(embeddings) -> load embeddings to vector database(aka vector store) -> load question and retrieve the most relevant embeddings to respond it. -> sent the embeddings to the LLM to format the responding properly. 
+
+
+
+
+

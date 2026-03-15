@@ -1,3 +1,18 @@
 chat model vs completion model
-In chat model,we can pass system prompt too and can be interacted as human,they make conversational,also memorizes previous conversaations .
-But completion models are designed for single turn-text in/out tasks like code completion.
+
+    In chat model,we can pass system prompt too and can be interacted as human,they make conversational,also memorizes previous conversaations .
+    But completion models are designed for single turn-text in/out tasks like code completion.
+
+Here,
+
+    There are various methods to  call completion models and chat completion models in langchain..
+    we saw how system message and user message is passed to LLMs.
+    see syntax in talk_with_llm file.
+    Also, we knew how to display streaming output in LLM so it seems like visual representations ..
+
+
+
+
+
+
+

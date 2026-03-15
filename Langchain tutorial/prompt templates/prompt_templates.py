@@ -91,3 +91,22 @@ example_prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
+few_shot_prompt=FewShotChatMessagePromptTemplate(
+    example_prompt=example_prompt,
+    examples=examples
+)
+
+final_prompt =ChatPromptTemplate.from_messages(
+    [
+
+        ("system","You are an English-spanish translator."),
+        few_shot_prompt,
+        ("human","{input}"),
+    ]
+)
+
+
+
+
+#### Chains 
+
