@@ -1,0 +1,11 @@
+prompt templates for integrating logic into llm interactions 
+
+agendas 
+     - prompt templates 
+     - chains 
+     - output parsers 
+
+
+prompt  -> simply a programming language to interact/communicate  with LLMs 
+
+prompt_templates -> we can make fix prompt structure always just passing different topics inside {{}} / f""
